@@ -29,11 +29,9 @@ public class Word2{
 		
 		String word = new String(args[0]);
 
-		String empty = new String("");
-
 		int num = Integer.parseInt(args[1]);
 
-		combination(empty, word, num);
+		combination("", word, num);
 
 	}
 
